@@ -1,0 +1,11 @@
+
+SET_HEADER_PATH E:\PngMapEditor\header.txt
+SET_FOOTER_PATH E:\PngMapEditor\footer.txt
+
+SET_RESOLUTION 64 
+SET_MAX_SCALE  64
+
+0x00, 0x00, 0x00 -> INST(obj_earth_block; CENT, STRC)
+0xFF, 0x00, 0xFF -> INST(obj_fire_block)
+   0,    0,  255 -> INST(obj_water_block; CENT)
+ 150,  150,  150 -> INST(obj_air_block; STRC)
