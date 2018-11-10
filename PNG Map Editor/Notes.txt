@@ -1,0 +1,33 @@
+
+
+Mapping:
+
+<instances>
+	<instance objName="obj_enemy_sct" x="2432" y="880" name="inst_6A9CABFF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+</instances>
+
+<tiles>
+	<tile bgName="bg_tree_3" x="32" y="656" w="413" h="381" xo="0" yo="0" id="10000794" name="inst_379D007A" depth="50" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+</tiles>
+
+=====================================
+
+Instances:
+
+xxx, yyy, zzz -> INST(name; FLAGS...)
+
+	FLAGS:
+		CENT = Is it centered
+		STRC = Can it be stretched
+
+=====================================
+
+Tiles:
+
+xxx, yyy, zzz -> TILE(name; FLAGS...) * missing = xo, yo, w, h 
+
+	FLAGS:
+		CENT = Is it centered
+		STRC = Can it be stretched
+
+=====================================
